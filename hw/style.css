@@ -11,6 +11,9 @@ a{ text-decoration: none;
    color: chocolate
 }
 
+a:hover{ color: aqua
+}
+
 h3{ color: black;
     font-size: 18px;
     font-weight: 400;
@@ -31,14 +34,27 @@ h3{ color: black;
 }
 
 .specifications{ color: cyan;
-    list-style-image: url(_6.png) 
+                list-style-image: url(_6.png) 
 }
 
 input{ height: 2rem;
        width: 12rem;
        margin-bottom: 1rem;
-       color: dimgray
+       color: dimgray;
+       text-transform: capitalize
 }
+
+input[type="email"]:focus{ 
+    background: #c7c0c0;
+    color: aqua
+}
+
 textarea{ width: 12rem;
           color: dimgray
+}
+
+td{ border: 1px solid black
+}
+table{ border-collapse: collapse;
+    color: black    
 }

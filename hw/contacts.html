@@ -2,40 +2,41 @@
 <html lang="ru">
 <head>    
     <title>Contacts</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="header">
-        <img src="logo.png" alt="Магазин очень нужных вещей">
-        <h1>Гамазин</h1>
-        <ul>
-            <li><a href="index.html">Главная страница</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+   <div class="container">
+        <div class="header">
+            <img src="images/logo.png" class="logo" alt="Магазин очень нужных вещей">            
+            <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>            
+        </div>
         <hr>
-    </div>
-    <h1>Напишите нам</h1>
-    <form action="contacts.html" method="post">
-        <label for="name">Имя</label><br>
-        <input class="inp" type="text" name="name" id="name" placeholder="Ivan"><br>
-        <label for="e-mail">e-mail</label><br>
-        <input required type="email" name="e-mail" id="e-mail" placeholder="ivan@gdetotam.br"><br>
-        <label for="theme">Тема</label><br>
-        <input type="text" name="theme" id="theme"><br>
-        <label for="textarea">Текст</label><br>
-        <textarea name="textarea" rows="6"> </textarea> <br>
-        <input type="submit">
-    </form>
-    <h4>Наш адрес</h4>
-    Дворец Богдо-гэгэна
-    Улан-Батор, Монголия
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29407.452621232726!2d106.88366492568859!3d47.889154312113206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693b76a0c4c1f%3A0xbabf01c6008859b7!2z0JTQstC-0YDQtdGGINCR0L7Qs9C00L4t0LPRjdCz0Y3QvdCw!5e0!3m2!1sru!2sru!4v1547463435800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <div class="footer">
-        <hr>
-        &copy; "Все права защищены"
-    </div>   
+        <h1>Напишите нам</h1>
+        <form action="contacts.html" method="post">
+            <label for="name">Имя</label><br>
+            <input class="inp" type="text" name="name" id="name" placeholder="Ivan"><br>
+            <label for="e-mail">e-mail</label><br>
+            <input required type="email" name="e-mail" id="e-mail" placeholder="ivan@gdetotam.br"><br>
+            <label for="theme">Тема</label><br>
+            <input type="text" name="theme" id="theme"><br>
+            <label for="textarea" id="tarea">Текст</label><br>
+            <textarea name="tarea" rows="6"> </textarea> <br>
+            <input type="submit">
+        </form>
+        <h4>Наш адрес</h4>
+        Дворец Богдо-гэгэна
+        Улан-Батор, Монголия
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29407.452621232726!2d106.88366492568859!3d47.889154312113206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693b76a0c4c1f%3A0xbabf01c6008859b7!2z0JTQstC-0YDQtdGGINCR0L7Qs9C00L4t0LPRjdCz0Y3QvdCw!5e0!3m2!1sru!2sru!4v1547463435800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="footer">
+            <hr>
+            &copy; "Все права защищены"
+        </div>   
+   </div>
     
 </body>
 </html>
